@@ -1,0 +1,11 @@
+### Hello World
+GET http://{{host}}:7070/
+
+### Not Found
+GET http://{{host}}:7070/jfklsdajf
+
+### Statistics
+POST http://{{host}}:7070/stats
+
+### Shutdown Festival
+POST http://{{host}}:7070/shutdown
